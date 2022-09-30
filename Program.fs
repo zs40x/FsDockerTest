@@ -1,15 +1,13 @@
 ﻿// For more information see https://aka.ms/fsharp-console-apps
 
-let generateRandomNumber() =
-    let r = System.Random()
-    r.Next()
+namespace testApp
 
-printfn "Hello from F#"
+open FizzBuzz
 
-let number = generateRandomNumber()
-printfn "Another Number: %i" number
-
-let add(a:int) (b:int) : int = a + b
-
-let calculationResult = add 10 12
-printfn "Call a Function that Adds 2 Numbers: %i" calculationResult
+module Program = 
+    [<EntryPoint>]
+    let main argv =
+        [1 .. 15]
+            |> List.map FizzBuzz.fiffBuzz
+            |> List.iter (fun result -> printfn "%s" result)
+        0
