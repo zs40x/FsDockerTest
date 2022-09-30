@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsDockerTest", "FsDockerTest\FsDockerTest.fsproj", "{0EAE0AD4-8C06-4FCC-9FC0-37FE7A41421F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsDockerTest.Tests", "FsDockerTest.Tests\FsDockerTest.Tests.fsproj", "{AE3EDEBE-FDBC-4D4F-9248-D5DBF043471B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EAE0AD4-8C06-4FCC-9FC0-37FE7A41421F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAE0AD4-8C06-4FCC-9FC0-37FE7A41421F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAE0AD4-8C06-4FCC-9FC0-37FE7A41421F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAE0AD4-8C06-4FCC-9FC0-37FE7A41421F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3EDEBE-FDBC-4D4F-9248-D5DBF043471B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3EDEBE-FDBC-4D4F-9248-D5DBF043471B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3EDEBE-FDBC-4D4F-9248-D5DBF043471B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3EDEBE-FDBC-4D4F-9248-D5DBF043471B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
