@@ -5,11 +5,11 @@ open Microsoft.VisualStudio.TestTools.UnitTesting
 open testApp.FizzBuzz
 
 [<TestClass>]
-type TestClass () =
+type FizzBuzzTests () =
 
     [<TestMethod>]
     member this.OneIsOne() =
-        Assert.AreEqual(1, FizzBuzz.fizzBuzz 1)
+        Assert.AreEqual(1, fizzBuzz 1)
 
     [<TestMethod>]
      member this.FailEveryTime() = Assert.IsTrue(false)

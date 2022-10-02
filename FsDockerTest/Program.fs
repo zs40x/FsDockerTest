@@ -8,6 +8,6 @@ module Program =
     [<EntryPoint>]
     let main argv =
         [1 .. 15]
-            |> List.map FizzBuzz.fiffBuzz
+            |> List.map FizzBuzz.fizzBuzz
             |> List.iter (fun result -> printfn "%s" result)
         0
