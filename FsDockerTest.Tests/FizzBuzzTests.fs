@@ -9,7 +9,7 @@ type FizzBuzzTests () =
 
     [<TestMethod>]
     member this.OneIsOne() =
-        Assert.AreEqual(1, fizzBuzz 1)
+        Assert.AreEqual("1", fizzBuzz 1)
 
     [<TestMethod>]
      member this.FailEveryTime() = Assert.IsTrue(false)
